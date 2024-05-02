@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AytEsitAgirlikSonucActivity">
+    <TextView
+        android:id="@+id/tytMatematikText"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="22dp"
+        android:gravity="center_vertical"
+        android:text="TextView"
+        android:textColor="#100F0F"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/tytFenText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tytTurkceText"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="423dp"
+        android:gravity="center_vertical"
+        android:text="TextView"
+        android:textColor="#100F0F"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/YerleştimeText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tytFenText"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="22dp"
+        android:gravity="center_vertical"
+        android:text="TextView"
+        android:textColor="#100F0F"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/tytSosyalText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tytSosyalText"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="22dp"
+        android:gravity="center_vertical"
+        android:text="TextView"
+        android:textColor="#100F0F"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/EdebiyatText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/EdebiyatText"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="22dp"
+        android:gravity="center_vertical"
+        android:text="TextView"
+        android:textColor="#100F0F"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/MatematikText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/MatematikText"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="22dp"
+        android:gravity="center_vertical"
+        android:text="TextView"
+        android:textColor="#100F0F"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/Tarih_1Text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/Tarih_1Text"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="22dp"
+        android:gravity="center_vertical"
+        android:text="TextView"
+        android:textColor="#100F0F"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/Cografya_1Text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/Cografya_1Text"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="22dp"
+        android:gravity="center_vertical"
+        android:text="TextView"
+        android:textColor="#100F0F"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/YerleştimeText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/YerleştimeText"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="55dp"
+        android:gravity="center_vertical"
+        android:text="TextView"
+        android:textColor="#2E9A2E"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tytTurkceText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "761407083500",
+    "project_id": "asistan-c465e",
+    "storage_bucket": "asistan-c465e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:761407083500:android:f2451d6c1b783eab3666c9",
+        "android_client_info": {
+          "package_name": "com.example.asistan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "761407083500-eqehsleabcgd9m1uu3dosl91evqodmko.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAG1ingibikrhu6o0es5qdVkqpu775wKfQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "761407083500-eqehsleabcgd9m1uu3dosl91evqodmko.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

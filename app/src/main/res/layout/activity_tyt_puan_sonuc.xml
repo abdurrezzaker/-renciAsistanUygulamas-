@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tytPuanSonucActivity">
+
+
+    <TextView
+        android:id="@+id/matText"
+        android:layout_width="350dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="103dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="19dp"
+        android:gravity="center_vertical"
+        android:textColor="#070707"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/turkText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/fenText"
+        android:layout_width="350dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="21dp"
+        android:gravity="center_vertical"
+        android:textColor="#070707"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/sosyalText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/turkText" />
+
+    <TextView
+        android:id="@+id/yerlestirmeText"
+        android:layout_width="350dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="154dp"
+        android:gravity="center_vertical"
+        android:textColor="#248C29"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sosyalText" />
+
+    <TextView
+        android:id="@+id/sosyalText"
+        android:layout_width="350dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="53dp"
+        android:gravity="center_vertical"
+        android:textColor="#070707"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/yerlestirmeText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fenText" />
+
+    <TextView
+        android:id="@+id/turkText"
+        android:layout_width="350dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="21dp"
+        android:gravity="center_vertical"
+        android:textColor="#070707"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/fenText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/matText" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
